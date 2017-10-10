@@ -16,7 +16,7 @@ import matplotlib.image as mpim
 import glob
 
 # Model Parameters
-epochs = 100
+epochs = 1000
 
 # Import the Data
 batch_in = []
