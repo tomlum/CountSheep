@@ -4,7 +4,7 @@
 
 A proof of concept for Deep Sleep Walk, CountSheep learns to look at an mnist digit and draw the next mnist digit.  Of course, in the process of trying to draw an image from just neural memories, CountSheep distorts its reinterpritation in sometimes chaotic and sometimes meaningful ways.
 
-# CountSheep
+# Installation
 To begin counting sheep you'll just need to run
 `pipenv install`
 
