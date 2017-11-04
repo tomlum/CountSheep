@@ -26,8 +26,6 @@ batch_out = batch_out.reshape(-1, 784)
 batch_in = batch_in / 255
 batch_out = batch_out / 255
 
-im_test = batch_in[1]
-
 # The Model
 model = Sequential([
     Dense(32, input_shape=(784,)),
@@ -43,12 +41,11 @@ model.fit(batch_in, batch_out, epochs=epochs, batch_size=10, verbose=2)
 scores = model.evaluate(batch_in, batch_out, verbose=0)
 
 # First Seed/Base Prediction
-prediction = im_test.reshape(28, 28)
-
-# Interact with the NN
+prediction = batch_in[1].reshape(28, 28)
 
 
 def interact(event):
+    # Interact with the NN
 
     global prediction
 
