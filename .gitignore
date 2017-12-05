@@ -1,3 +1,5 @@
 *.txt
 *.sublime-project
 *.sublime-workspace
+__pycache__
+save.hdf5

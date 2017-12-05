@@ -13,6 +13,9 @@ matplotlib = "*"
 numpy = "*"
 tensorflow = "*"
 pillow = "*"
+"h5py" = "*"
+argparse = "*"
+uuid = "*"
 
 
 [dev-packages]
