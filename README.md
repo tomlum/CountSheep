@@ -10,7 +10,7 @@ To begin counting sheep you'll just need to install Python 3 and [Pipenv](https:
 then to begin, run
 `pipenv run python main.py`
 
-note: most mac's might run into [this problem](https://stackoverflow.com/questions/21784641/installation-issue-with-matplotlib-python) settuping up the dependencies.
+note: some mac's might run into [this problem](https://stackoverflow.com/questions/21784641/installation-issue-with-matplotlib-python) settuping up the dependencies.
 
 # Controls
 
