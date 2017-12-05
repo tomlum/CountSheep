@@ -12,7 +12,7 @@ To begin counting sheep you'll just need to install Python 3 and [Pipenv](https:
 
 note: some mac's might run into [this problem](https://stackoverflow.com/questions/21784641/installation-issue-with-matplotlib-python) setting up the dependencies.
 
-# Installation
+# Training & Generating
 To start training the network, run
 `pipenv run python train.py <Number of Epochs to Train>`
 To watch the network generate numbers, run
