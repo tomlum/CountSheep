@@ -22,7 +22,6 @@ def interact(event):
             prediction.reshape(-1, 784)
         ).reshape(28, 28)
         plt.imshow(prediction)
-        print("Generating Next Image")
         fig.canvas.draw()
 
     # Reset the seed by pressing a number
@@ -32,7 +31,6 @@ def interact(event):
                 prediction = mpim.imread(
                     glob.glob("./in/" + str(i) + "/*.jpg")[randint(0, 25)])
                 plt.imshow(prediction)
-                print("Seed is " + str(i))
                 fig.canvas.draw()
                 break
 
