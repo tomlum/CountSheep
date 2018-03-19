@@ -4,7 +4,7 @@
 
 CountSheep learns to look at an mnist digit and draw the next mnist digit counting upwards.  Of course, in the process of trying to draw an image from just neural memories, CountSheep distorts its reinterpritation in sometimes chaotic and sometimes meaningful ways.
 
-To try CountSheep for yourself and learn more about it, check out [Doodle Brains](https://www.tomlum.com/doodlebrains).
+To try CountSheep for yourself and learn more about it, check out [Doodle Brains](https://www.tomlum.com/doodle-brains/count-sheep).
 
 # Installation
 To begin counting sheep you'll just need to install Python 3 and [Pipenv](https://github.com/kennethreitz/pipenv) which keeps track of the dependent libraries.  To install them, just run
