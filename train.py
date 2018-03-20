@@ -59,7 +59,7 @@ def main(epochs):
         callbacks=[
             ModelCheckpoint(
                 filepath="./save.hdf5",
-                verbose=0,
+                verbose=1,
                 monitor='loss',
                 save_best_only=True,
                 mode='auto')
