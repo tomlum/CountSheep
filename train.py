@@ -9,7 +9,7 @@ from keras.optimizers import Adam
 from keras.models import load_model
 import matplotlib.image as mpim
 
-learningRate = .001
+learningRate = .00001
 
 
 def main(epochs):
@@ -49,6 +49,9 @@ def main(epochs):
                       optimizer=Adam(lr=learningRate),
                       metrics=["accuracy"])
 
+        with open("model.json", "w") as json_file:
+            json_file.write(model.to_json())
+
     # Train the model
     model.fit(
         batch_in,
@@ -59,7 +62,7 @@ def main(epochs):
         callbacks=[
             ModelCheckpoint(
                 filepath="./save.hdf5",
-                verbose=1,
+                verbose=0,
                 monitor='loss',
                 save_best_only=True,
                 mode='auto')

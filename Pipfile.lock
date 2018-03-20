@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "77f00654d1ccd785fc96459d74fc637d1fc542da51f8f20b131435e3945f3327"
+            "sha256": "fcb4c18a09071316e4090a1c72e89c63aee8a3e9f67f2e1ce71973ba2eb13fd7"
         },
         "host-environment-markers": {
             "implementation_name": "cpython",
@@ -143,10 +143,10 @@
         },
         "keras": {
             "hashes": [
-                "sha256:55e4598f6ff2a374a8abd8e7a4c65be95ac5d3a6ee81b08d7d2549f8c3e1d8d5",
-                "sha256:907ad29add1fff27342a9f4fe3e60003d450d3af41a38f22f629c7736fc8399d"
+                "sha256:eb7f2345ca7d5072ede8b43a5f4c2924e8429046cdaa6fe09e97a7b7e00fa088",
+                "sha256:3ee56fc129d9d00b1916046e50056047836f97ada59df029e5661fb34442d5e8"
             ],
-            "version": "==2.1.5"
+            "version": "==2.1.2"
         },
         "kiwisolver": {
             "hashes": [
