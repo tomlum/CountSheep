@@ -1,4 +1,4 @@
-# [CountSheep](https://www.tomlum.com/doodlebrains)
+# [CountSheep](https://www.tomlum.com/doodle-brains/count-sheep)
 
 ![](https://thumbs.gfycat.com/RashMadeupAlpineroadguidetigerbeetle-size_restricted.gif)
 
